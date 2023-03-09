@@ -1,0 +1,22 @@
+/* Family: [Manrope](https://fonts.google.com/specimen/Manrope)
+- Weights: 800 */
+
+
+body {
+    background: #202632;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1.6rem;
+}
+
+.advice_generator {
+
+    font-family: "Manrope", sans-serif;
+    width: 100%;
+    max-width: 54rem;
+    grid-template-rows: max-content 3.2rem;
+    grid-template-columns: 1fr;
+}
+
