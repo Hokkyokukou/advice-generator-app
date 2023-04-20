@@ -17,8 +17,8 @@ const myAdviceGenerator = () => {
     };
 
     const generateNewAdvice = async () => {
-        const data = await fetchNewAdvice();
-        const adviceSlip = data.slip;
+        const adviceData = await fetchNewAdvice();
+        const adviceSlip = adviceData.slip;
         // console.log(adviceSlip);
         renderAdvice(adviceSlip);
     };
